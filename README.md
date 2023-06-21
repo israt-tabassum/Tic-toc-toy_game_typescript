@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+1. props     refers to the properties passed to a component. This provides static type checking and helps ensure that the correct properties are passed to the component.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. import React from 'react';    The line import React from 'react' is used to import the React library in a TypeScript file.
 
-## Available Scripts
+3. export default App;     The line export default App; is used to export the App component as the default export in a  TypeScript file.
 
-In the project directory, you can run:
+4. import { useState } from 'react';        The line import { useState } from 'react'; is used to import the useState hook from the React library. In React, hooks are functions that allow us to use state and other React features in functional components. The useState hook is a built-in hook provided by React that enables us to add state to functional components.  By importing useState from the 'react' module, we can gain access to the useState function, which we can then use within your functional component to create and update state variables.
 
-### `npm start`
+5. User = (props: {name: string; age: number})      The line User = (props: {name: string; age: number}) is defining a functional component called User in TypeScript. The component expects to receive props as an argument, and the type of props is defined as an object with two properties: name of type string, and age of type number.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+6. const        const is a keyword in the TypeScript used to declare a variable with a constant value. Once a constant is assigned a value, it cannot be re-assigned to a new value.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+7.     const listItems = products.map(product =>              listItems is declared as a variable using the const keyword. It suggests that the variable is intended to hold the result of the map method being called on the products array.
 
-### `npm test`
+8.     function handleClick()       When the handleClick function is executed, the alert function is called, which displays the specified message as an alert dialog box in the browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+9.  export const Practicerender: React.FC = () => {      React.FC is a generic type that stands for "React Function Component." It's a type provided by the React library and is commonly used to define functional components in TypeScript. This is a shorthand notation for defining a functional component that accepts props. It provides type checking for the props that are passed to the component.
 
-### `npm run build`
+10. function MyButton() { const [count, setCount] = useState(0);             MyButton uses the useState hook from React to manage a state variable named count and a function named setCount that updates the state.   
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+11. onClick         onClick attribute expects a function as its value. When the element is clicked, React will invoke the provided function.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+12. HandleClick     The handleClick function is defined to handle the button click event
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+13.  const [count, setCount] = useState(0);        React's useState hook define a state variable called "count" and a corresponding setter function called "setCount". The initial value of the "count" state is set to 0.
