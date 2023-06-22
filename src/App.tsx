@@ -10,6 +10,19 @@ import Pevents from './components/Pevents';
 import Screenupdate from './components/Screenupdate';
 import CountTogether from './components/CountTogether';
 
+import Test from './components/Test';
+//import Screenupdate1 from './components/Screenupdate1';
+
+import Board from './components/Board';
+import Block from './components/Block';
+
+
+
+
+import "./App.css";
+
+
+
 function App() {
   return (
     <div className="App">
@@ -25,6 +38,11 @@ function App() {
       <p>Event Handling in react: <Pevents/></p> 
       <p><Screenupdate/></p> 
       <p><CountTogether/></p> 
+      <p> <Board /></p>
+
+
+
+
     </div>
   );
 }
